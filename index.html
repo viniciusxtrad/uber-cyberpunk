@@ -71,6 +71,15 @@
       margin-bottom: 20px;
     }
 
+    /* Imagem Hero no topo */
+    .hero-image {
+      width: 100%;
+      max-height: 400px;
+      object-fit: cover;
+      display: block;
+      border-radius: 12px 12px 0 0;
+    }
+
     .hero {
       background: linear-gradient(rgba(10, 10, 20, 0.8), rgba(20, 10, 40, 0.9)),
                   url('https://images.unsplash.com/photo-1595057403432-7b5107586f06?w=1600&q=80') center/cover no-repeat;
@@ -460,11 +469,18 @@
         bottom: 20px;
         right: 20px;
       }
+
+      .hero-image {
+        max-height: 250px;
+      }
     }
   </style>
 </head>
 <body>
   <div class="wrapper">
+    <!-- Imagem Hero no topo (mesma das meta tags) -->
+    <img class="hero-image" src="https://viniciusxtrad.github.io/imagens/imagens1/marauber.png" alt="Uber Premium - Transporte de luxo no Paraná" />
+
     <!-- Hero Section -->
     <div class="hero">
       <h1>UBER PREMIUM<br>Conforto e Segurança</h1>
